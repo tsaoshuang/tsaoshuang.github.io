@@ -3,7 +3,63 @@
         <title>Readfere</title>
         <link>https://tsaoshuang.github.io/</link>
         <description>Readfere</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 23 Nov 2023 11:39:25 &#43;0800</lastBuildDate>
             <atom:link href="https://tsaoshuang.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>Chocolatey包管理软件</title>
+    <link>https://tsaoshuang.github.io/posts/chocolatey%E5%8C%85%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/</link>
+    <pubDate>Thu, 23 Nov 2023 11:39:25 &#43;0800</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/chocolatey%E5%8C%85%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/</guid>
+    <description><![CDATA[安装命令 1 Set-ExecutionPolicy Bypass -Scope Process -Force; [System. Net. ServicePointManager]:: SecurityProtocol = [System. Net. ServicePointManager]:: SecurityProtocol -bor 3072; iex ((New-Object System. Net. WebClient). DownloadString (&#39; https://community.chocolatey.org/install.ps1 &#39;)) %%Reference link:: Installing Chocolatey %%]]></description>
+</item><item>
+    <title>iPhone导入自定义字体</title>
+    <link>https://tsaoshuang.github.io/posts/iphone%E5%AF%BC%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/iphone%E5%AF%BC%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93/</guid>
+    <description><![CDATA[缘起 ：群里使用 iPhone 的小伙伴有在 obsidian 中使用自定义字体的需求，但是却不知道怎样将下载的字体导入到 iPhone 中。 前置条件 ：在 appstore 中下载 ==iFont== APP ![[ifont.png]] 导入方法 用 safari 访问字体]]></description>
+</item><item>
+    <title>MemosSync插件同步问题解决</title>
+    <link>https://tsaoshuang.github.io/posts/memossync%E6%8F%92%E4%BB%B6%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/memossync%E6%8F%92%E4%BB%B6%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</guid>
+    <description><![CDATA[我现在的笔记流程中用于记录闪念笔记的方式是通过在 nas 上面自建 Memos 的方式 界面是这样的： ![[自建Memos界面.png]] 这个自建 memos 不仅可以网页访]]></description>
+</item><item>
+    <title>Prism主题高亮样式通用CSS片段</title>
+    <link>https://tsaoshuang.github.io/posts/prism%E4%B8%BB%E9%A2%98%E9%AB%98%E4%BA%AE%E6%A0%B7%E5%BC%8F%E9%80%9A%E7%94%A8css%E7%89%87%E6%AE%B5/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/prism%E4%B8%BB%E9%A2%98%E9%AB%98%E4%BA%AE%E6%A0%B7%E5%BC%8F%E9%80%9A%E7%94%A8css%E7%89%87%E6%AE%B5/</guid>
+    <description><![CDATA[有一天看群友对 Prism 主题的高亮样式感兴趣了，当时有时间就去 Prism 主题的 项目主页 逛了逛，顺便把它的高亮样式移植了下来。 Prism 主题的高亮样式长这样： ![[P]]></description>
+</item><item>
+    <title>PT网站大全</title>
+    <link>https://tsaoshuang.github.io/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</guid>
+    <description><![CDATA[CarPT： https://carpt.net/login.php WinterSakura： https://wintersakura.net/ 猪猪网： https://piggo.me/ HDzone - 高清地帶： http://www.hdzone.org 铂金学院： https://ptchina.org/ Hoşgeldiniz Broadcity | BDC | Broadcity | BDC： https://broadcity.in/ 1PTBar：h]]></description>
+</item><item>
+    <title>YouTube去广告</title>
+    <link>https://tsaoshuang.github.io/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</guid>
+    <description><![CDATA[#YouTube ▎YouTube 第三方客户端&amp;去广告方案 有小伙伴在群组中问我有没有 YouTube 去广告的方案，今天我总结了一些方案分享给大家。 分享这些方案不是]]></description>
+</item><item>
+    <title>从零开始玩 PT - 新人指南</title>
+    <link>https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/</guid>
+    <description><![CDATA[文章目录 一、PT 是什么？ 二、理论知识 种子 DHT PXE 辅种 魔力值 图床 做种率 盒子 (Seedbox) 资源的标识 三、PT 站点介绍 四、如何注册某个 PT 站点的账号？ 五、新手考核 六]]></description>
+</item><item>
+    <title>影视下载和字幕站</title>
+    <link>https://tsaoshuang.github.io/posts/%E5%BD%B1%E8%A7%86%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AD%97%E5%B9%95%E7%AB%99/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Readfere</name>
+    </author><guid>https://tsaoshuang.github.io/posts/%E5%BD%B1%E8%A7%86%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AD%97%E5%B9%95%E7%AB%99/</guid>
+    <description><![CDATA[IMDb: Ratings, Reviews, https://www.imdb.com/ 字幕库 (zimuku) &ndash; 字幕下载网站 https://zimuku.org/ The Movie Database (TMDB) https://www.themoviedb.org/ 分享交流下载字幕平台 https://subhd.tv/ Subtitles - download movie and TV Series subtitles https://www.opensubtitles.org/en/captcha/redirect-%7Czh]]></description>
+</item></channel>
 </rss>

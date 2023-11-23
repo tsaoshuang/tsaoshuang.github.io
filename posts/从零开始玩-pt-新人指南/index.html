@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>从零开始玩 PT - 新人指南 - Readfere</title><meta name="Description" content=""><meta property="og:title" content="从零开始玩 PT - 新人指南" />
+<meta property="og:description" content="文章目录 一、PT 是什么？ 二、理论知识 种子 DHT PXE 辅种 魔力值 图床 做种率 盒子 (Seedbox) 资源的标识 三、PT 站点介绍 四、如何注册某个 PT 站点的账号？ 五、新手考核 六" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" /><meta property="article:section" content="posts" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="从零开始玩 PT - 新人指南"/>
+<meta name="twitter:description" content="文章目录 一、PT 是什么？ 二、理论知识 种子 DHT PXE 辅种 魔力值 图床 做种率 盒子 (Seedbox) 资源的标识 三、PT 站点介绍 四、如何注册某个 PT 站点的账号？ 五、新手考核 六"/>
+<meta name="application-name" content="Readfere">
+<meta name="apple-mobile-web-app-title" content="Readfere">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" /><link rel="prev" href="https://tsaoshuang.github.io/posts/%E5%BD%B1%E8%A7%86%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AD%97%E5%B9%95%E7%AB%99/" /><link rel="next" href="https://tsaoshuang.github.io/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/" />
+<link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "从零开始玩 PT - 新人指南",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/tsaoshuang.github.io\/posts\/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97\/"
+        },"genre": "posts","wordcount":  5583 ,
+        "url": "https:\/\/tsaoshuang.github.io\/posts\/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97\/","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Readfere"
+            },"description": ""
+    }
+    </script></head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Readfere"><span class="header-title-pre">📖</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-select" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                    <select class="color-theme-select" id="theme-select-desktop" title="切换主题">
+                        <option value="light">浅色</option>
+                        <option value="dark">深色</option>
+                        <option value="black">黑色</option>
+                        <option value="auto">跟随系统</option>
+                    </select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Readfere"><span class="header-title-pre">📖</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-select" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+                <select class="color-theme-select" id="theme-select-mobile" title="切换主题">
+                    <option value="light">浅色</option>
+                    <option value="dark">深色</option>
+                    <option value="black">黑色</option>
+                    <option value="auto">跟随系统</option>
+                </select>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">从零开始玩 PT - 新人指南</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">Readfere</a>
+                </span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 5583 字&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 12 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#文章目录">文章目录</a></li>
+          </ul>
+        </li>
+        <li><a href="#一pt-是什么">一、PT 是什么？</a></li>
+        <li><a href="#二理论知识">二、理论知识</a>
+          <ul>
+            <li><a href="#1-种子">1. 种子</a></li>
+            <li><a href="#2-dht">2. DHT</a></li>
+            <li><a href="#3-pxe">3. PXE:</a></li>
+            <li><a href="#4-辅种">4. 辅种:</a></li>
+            <li><a href="#5-魔力值">5. 魔力值:</a></li>
+            <li><a href="#6-图床">6. 图床:</a></li>
+            <li><a href="#7-做种率">7. 做种率:</a></li>
+            <li><a href="#8-盒子-seedbox">8. 盒子 (Seedbox):</a></li>
+            <li><a href="#9-资源的标识">9. 资源的标识:</a></li>
+          </ul>
+        </li>
+        <li><a href="#三pt-站点介绍">三、PT 站点介绍</a></li>
+        <li><a href="#四如何注册某个-pt-站点的账号">四、如何注册某个 PT 站点的账号？</a></li>
+        <li><a href="#五新手考核">五、新手考核</a></li>
+        <li><a href="#六常用工具">六、常用工具</a>
+          <ul>
+            <li><a href="#下载工具">下载工具</a></li>
+            <li><a href="#搜索工具">搜索工具</a></li>
+            <li><a href="#辅种工具">辅种工具</a></li>
+          </ul>
+        </li>
+        <li><a href="#七注意事项">七、注意事项</a></li>
+        <li><a href="#八结语">八、结语</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition warning open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-exclamation-triangle fa-fwwarning"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        本文最后更新于 <span class="timeago" datetime="0001-01-01T00:00:00" title="January 1, 0001">0001-01-01</span>，文中内容可能已过时。</div>
+                </div>
+            </div><h4 id="文章目录" class="headerLink">
+    <a href="#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95" class="header-mark"></a>文章目录</h4><ul>
+<li>一、PT 是什么？</li>
+<li>二、理论知识
+<ul>
+<li>种子</li>
+<li>DHT</li>
+<li>PXE</li>
+<li>辅种</li>
+<li>魔力值</li>
+<li>图床</li>
+<li>做种率</li>
+<li>盒子 (Seedbox)</li>
+<li>资源的标识</li>
+</ul>
+</li>
+<li>三、PT 站点介绍</li>
+<li>四、如何注册某个 PT 站点的账号？</li>
+<li>五、新手考核</li>
+<li>六、常用工具
+<ul>
+<li>下载工具</li>
+<li>搜索工具</li>
+<li>辅种工具</li>
+</ul>
+</li>
+<li>七、注意事项</li>
+<li>八、结语</li>
+</ul>
+<p>PT 的主要作用就是下载共享资源的，其实在大学的时候多少也都接触过，比如东北大学大名鼎鼎的六维空间，北邮的 BYRPT，上交的葡萄 PT 都是上学的时候下载资源的好地方。可惜的是由于学校的 PT 主要都是为了学生们的资源共享，所以一般都是限制只有教育网的 ipv6 才可以访问，已经不是学生的同学们也不要泄气，其实外网 PT 资源要比那些教育站点要丰富的多。</p>
+<h3 id="一pt-是什么" class="headerLink">
+    <a href="#%e4%b8%80pt-%e6%98%af%e4%bb%80%e4%b9%88" class="header-mark"></a>一、PT 是什么？</h3><p>首先介绍一下 BT，BT 是用在对等网络中文件分享的 <a href="https://so.csdn.net/so/search?q=%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">网络协议</a> 程序。和点对点 (point-to-point) 的协议程序不同， 最大特点就是下载的人越多，下载速度就越快，因为在你下载的同时，会把下载到的部分文件上传给其他人，其他人下载了也会把下载的部分分享出来。因为 BT 有太多下了就跑，不愿意做分享的人，所以催生了 PT (Private Tracker) 的产生。
+PT 就是一个打造<strong>我为人人，人人为我的</strong>下载协议，最早出现的是 BT，我们经常下载的种子就是这种，有人会说那我平时下电影下自愿者直接用迅雷或百度网盘下不就行了嘛，为什么要用 PT 呢？首先，总所周知迅雷和百度网盘的下载速度是多么的无语，他们的程序在后台其实也是间接的把本机的资源分享给了别人，其实原理上都是一样的，只不过他们从中限速做会员割韭菜。此外，你不一定能找到相关资源的 BT 种子，正所谓无规矩不成方圆，如果有一些规则加以限制，这个圈子才能越来越好，形成良好的闭环。
+PT 想对于 BT 有两个明显的改进：一是私密的小范围下载，二是进行流量统计，其根据上传量决定你的权限。
+因此提供 PT 服务的网站是不公开的，采用邀请制或是不定时开放注册。用户注册后会 得到一个 passkey，服务器由 passkey 识别每个用户，用户从某 PT 站下载种子后，该种子即 带有用户的 passkey。因此 PT 的种子是不可外流到其他地方
+所以在出现问题询问时，一定要隐藏好你的 passkey 值。例如：截 图是用马赛克遮挡 passkey 值，因为如果你的 key 泄露某些别用用心的人就可以使用你的 key 进行下载，这比你账号密码泄露更加可怕。
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604121715580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604121715580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604121715580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70"
+            srcset="https://img-blog.csdnimg.cn/20200604121715580.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70, https://img-blog.csdnimg.cn/20200604121715580.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 1.5x, https://img-blog.csdnimg.cn/20200604121715580.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+由于有 passkey，用户上传及下载即可统计，在大多数的 PT 站会以上下载比例 (分享率) 规定用户需上传多少后才可下载多少，分享率过低者会被系统取消使用 PT 的资格。由于需 有足够的上传方可下载，因此有些用户会租用网络上有大带宽的 Seedbox 以冲高自己的上传率。Seedbox 就是租用一个大硬盘大带宽的服务器，在上面发布资源供别人下载，这样别下载的流量都会统计到你的账号里上传量会很高，就意味着你自己可以随便下你想下的资源。</p>
+<h3 id="二理论知识" class="headerLink">
+    <a href="#%e4%ba%8c%e7%90%86%e8%ae%ba%e7%9f%a5%e8%af%86" class="header-mark"></a>二、理论知识</h3><p>其实和你平时在网上下载资源一样，我们都会得到一个 XXX.torrent 的种子文件，无非是 BT 不带 key，PT 带 key 而已。在正式开始之前，我们来补充一下相关理论知识。</p>
+<h4 id="1-种子" class="headerLink">
+    <a href="#1-%e7%a7%8d%e5%ad%90" class="header-mark"></a>1. 种子</h4><p>根据 BitTorrent 协议，文件发布者会根据要发布的文件生成提供一个.torrent 文件，即种子文件，也简称为 “种子”。种子文件本质上是文本文件，包含 Tracker 信息和文件信息两部分。Tracker 信息主要是 BT 下载中需要用到的 Tracker 服务器的地址和针对 Tracker 服务器的设置，文件信息是根据 对目标文件的计算生成的，计算结果根据 BitTorrent 协议内的 Bencode 规则进行编码。它的 主要原理是需要把提供下载的文件虚拟分成大小相等的块，块大小必须为 2k 的整数次方 (由 于是虚拟分块，硬盘上并不产生各个块文件)，并把每个块的索引信息和 Hash 验证码写入种 子文件中；所以，种子文件就是被下载文件的 “索引”。
+下载者要下载文件内容，需要先得到相应的种子文件，然后使用 BT 客户端软件进行下载。下载时，BT 客户端首先解析种子文件得到 Tracker 地址，然后连接 Tracker 服务器。Tracker 服务器回应下载者的请求，提供下载者其他下载者 (包括发布者) 的 IP。下载者再连接其他 下载者，根据种子文件，两者分别告知对方自己已经有的块，然后交换对方所没有的数据。 此时不需要其他服务器参与，分散了单个线路上的数据流量，因此减轻了服务器负担。 下载者每得到一个块，需要算出下载块的 Hash 验证码与种子文件中的对比，如果一样则说 明块正确，不一样则需要重新下载这个块。这种规定是为了解决下载内容准确性的问题。 一般的 HTTP/FTP 下载，发布文件仅在某个或某几个服务器，下载的人太多，服务器的带宽 很易不胜负荷，变得很慢。而 BitTorrent 协议下载的特点是，下载的人越多，提供的带宽也 越多，下载速度就越快。同时，拥有完整文件的用户也会越来越多，使文件的 “寿命” 不断延长。
+在使用 PT 的时候你可能也会遇到一些专业词，这里给出基本的解释：
+Tarcker: 收集下载者信息的服务器，并将此信息提供给其他下载者，可以理解为电话总机。</p>
+<h4 id="2-dht" class="headerLink">
+    <a href="#2-dht" class="header-mark"></a>2. DHT</h4><p>全称为分布式哈希表 (Distributed Hash Table)，是一种分布式存储方法。在不需要中心
+服务器，每个客户端负责一个小范围的路由，并负责存储一小部分数据，从而实现整个 DHT 网络的寻址和存储。使用支持该技术的 BT 下载软件，用户无需连上 Tracker 就可以下载，因 为软件会在 DHT 网络中寻找下载同一文件的其他用户并与之通讯，开始下载任务。 这种技术好处十分明显，就是大大减轻了 Tracker 的负担 (甚至不需要)。用户之间可以更快 速创建通讯 (特别是与 Tracker 连接不上的时候)</p>
+<h4 id="3-pxe" class="headerLink">
+    <a href="#3-pxe" class="header-mark"></a>3. PXE:</h4><p>是 Peer Exchange (用户交换) 的简写，我们可以将其理解为 “节点信息交换”
+前面说到了 DHT 网络是没有中心服务器的，那么我们的客户端总不能满世界去喊:“我在下 载这个文件，快来连我吧.”(很大声)。所以就通过各个 BT 客户端自带的节点去同步路由表 实现 DHT 网络接。</p>
+<h4 id="4-辅种" class="headerLink">
+    <a href="#4-%e8%be%85%e7%a7%8d" class="header-mark"></a>4. 辅种:</h4><p>其他人发布了资源，你手里刚好也有这个资源，那么你下载种子之后。只要数据通过了 hash 校验就会变成做种状态。
+初始做种 / 超级种子 / 超级种子模式:
+有些 BitTorrent 客户端用户下载完成后就关掉下载任务，全过程只提供了较少量数据给其他用户。为尽量避免这种行为，在非官方 BitTorrent 协议中存在超级种子的算法。这种算 法对文件发布者的种子文件有要求。文件发布者可以分几步发布文件，发布者不需要一次提 供文件所有内容，而是慢慢开放的下载内容的比例，延长下载时间。此时，速度快的人由于 未下载完必须提供给他人数据，速度慢的人有更多机会得到数据</p>
+<h4 id="5-魔力值" class="headerLink">
+    <a href="#5-%e9%ad%94%e5%8a%9b%e5%80%bc" class="header-mark"></a>5. 魔力值:</h4><p>PT 站的货币，用于站内购买邀请码。上传下载量，勋章等。由做种产生，具体与做种数 量、种子大小等有关</p>
+<h4 id="6-图床" class="headerLink">
+    <a href="#6-%e5%9b%be%e5%ba%8a" class="header-mark"></a>6. 图床:</h4><p>可以提供外链的网络相册，目前在用 Z4A。某些 PT 站点也会自建图床。</p>
+<h4 id="7-做种率" class="headerLink">
+    <a href="#7-%e5%81%9a%e7%a7%8d%e7%8e%87" class="header-mark"></a>7. 做种率:</h4><p>做种率 = 做种时间 ÷ 下载时间
+分享率:
+分享率 = 上传量 ÷ 下载量</p>
+<h4 id="8-盒子-seedbox" class="headerLink">
+    <a href="#8-%e7%9b%92%e5%ad%90-seedbox" class="header-mark"></a>8. 盒子 (Seedbox):</h4><p>大带宽 (1Gbps 或更高的带宽) 服务器，用于刷上传量，或快速下载 推荐 <a href="https://oneprovider.com/" target="_blank" rel="noopener noreferrer">OP 独服</a>。使用盒子有利有弊
+优点：快速出种，对内网用户友好，别人连不上你时，你会发现盒子大佬已经连上你了。
+缺点：对小水管不友好。因为带宽大，上传下载速度快导致很多小水管玩家根本抢不到 上传量只能默默看着盒子大佬数据飞涨，所以很多站点开始对盒子进行限制。</p>
+<h4 id="9-资源的标识" class="headerLink">
+    <a href="#9-%e8%b5%84%e6%ba%90%e7%9a%84%e6%a0%87%e8%af%86" class="header-mark"></a>9. 资源的标识:</h4><p><figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604123217847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604123217847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604123217847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70"
+            srcset="https://img-blog.csdnimg.cn/20200604123217847.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70, https://img-blog.csdnimg.cn/20200604123217847.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 1.5x, https://img-blog.csdnimg.cn/20200604123217847.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+如上图所示 (注意看标题后面的小图标):
+无标记：表示为普通资源，计算正常的下载量，上传量
+Free: 表示免费下载，不计算下载量
+2xFree: 表示免费下载，不计算下载量，计算两倍的上传量
+50%: 表示计算 50% 的下载量
+2x50%: 表示计算 50% 的下载量，计算两倍的上传量
+30%: 表示只计算 30% 的下载量
+H&amp;R:hit and run 打击下完就跑，有 H&amp;R 标识的资源会要求在一定时间内需做种时间 满足一定小时，不达标会记录一个 HR，HR 达到一定的量会被 ban 号</p>
+<h3 id="三pt-站点介绍" class="headerLink">
+    <a href="#%e4%b8%89pt-%e7%ab%99%e7%82%b9%e4%bb%8b%e7%bb%8d" class="header-mark"></a>三、PT 站点介绍</h3><p>每一个 PT 站点，都有自己独一无二的属性，不是千篇一律的，根据你的需要可选择加入不同的 PT 站点，比如：
+<strong>天雪动漫高清论坛</strong>：资源方面以高清动漫资源为主，下载方面以 PT 下载为主、网盘分享为辅，网站基于 Discuz 构建。
+<strong>U2 动漫花园</strong>：国内最为知名的动漫 PT 站，动漫资源很全，发布速度很快。
+<strong>M-Team</strong>：以特色资源 (限制级内容) 为主的 PT 站点
+PT 站点大全如图所示，可以根据选择入站。
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604125708403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604125708403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604125708403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70"
+            srcset="https://img-blog.csdnimg.cn/20200604125708403.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70, https://img-blog.csdnimg.cn/20200604125708403.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 1.5x, https://img-blog.csdnimg.cn/20200604125708403.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure></p>
+<h3 id="四如何注册某个-pt-站点的账号" class="headerLink">
+    <a href="#%e5%9b%9b%e5%a6%82%e4%bd%95%e6%b3%a8%e5%86%8c%e6%9f%90%e4%b8%aa-pt-%e7%ab%99%e7%82%b9%e7%9a%84%e8%b4%a6%e5%8f%b7" class="header-mark"></a>四、如何注册某个 PT 站点的账号？</h3><ol>
+<li>
+<p>捐助
+通过支付宝、微信、PayPal 等常见支付方式向网站捐助一定金额，或者在网站官方开设的店铺里面购买邀请码。
+捐助的金额一般用来维护服务器费用。</p>
+</li>
+<li>
+<p>开放注册
+一般的 PT 站点会在特定的节假日期间开放注册。
+在活动期间，注册账号后，完成新手考核即可加入。</p>
+</li>
+<li>
+<p>通过邀请码加入</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>如果你认识某个 PT 站点的朋友，这个朋友可以发放邀请码，你可以通过他的邀请码加入该 PT 站点。</p>
+</li>
+<li>
+<p>一般 PT 站点的官方会在其他 PT 站点发放官方邀请，只要你满足一定要求（比如说达到一定等级，上传量、下载量、做种时间分别达到多少）就可以得到邀请码。你也可以在你所在的 PT 站点的 PT 邀请区，向其他成员求一个邀请码，一般要展示你的数据（上传量、下载量、做种时间、HR 等等）。</p>
+</li>
+<li>
+<p>你可以在百度 PT 吧发帖，向其他成员求一个邀请码，一般要展示你的数据（上传量、下载量、做种时间、HR 等等）。或者在贴吧的官方长期邀请楼下面，讲一下你的故事，求一个邀请码，同上。</p>
+</li>
+</ul>
+<h3 id="五新手考核" class="headerLink">
+    <a href="#%e4%ba%94%e6%96%b0%e6%89%8b%e8%80%83%e6%a0%b8" class="header-mark"></a>五、新手考核</h3><p>进入 PT 站后一般新用户都会面对新手考核，也有些站点没有新手考核，但全站 H&amp;R。
+<strong>在开始完成新手考核之前，一定要看网站的规则和常见问题。</strong>
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604124013180.png" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604124013180.png">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604124013180.png"
+            srcset="https://img-blog.csdnimg.cn/20200604124013180.png, https://img-blog.csdnimg.cn/20200604124013180.png 1.5x, https://img-blog.csdnimg.cn/20200604124013180.png 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+里面规定了你可以使用的客户端，可以上传的资源类型等等。很多规定和教程会被写在论 坛里面，说起来对新人就不是那么友好的。但也要大致的看一遍，了解了规则之后，将事 半功倍。
+新手考核明面上考察的是如下几项：做种率、上传量、下载量、魔力值。
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604124053815.png" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604124053815.png">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604124053815.png"
+            srcset="https://img-blog.csdnimg.cn/20200604124053815.png, https://img-blog.csdnimg.cn/20200604124053815.png 1.5x, https://img-blog.csdnimg.cn/20200604124053815.png 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+但有一个隐藏的，伴随你整个 PT 生涯的考核就是 。分享率过低会限制可链接数量 同时只能下载一个种子等等。如果你做好了打一枪换一地疯狂吸血的想法，那不妨试试。
+那么应该如何通过新手考核呢？
+最快的方法捐赠：大多数网站都可以通过捐赠免除新手考核，并赠送一定的上传流量和魔 力值。但不建议第一次玩 PT 的新人就直接捐赠过考核，因为即使通过了考核也可能因为不 了解 PT 的规则而把账号玩死。
+完成考核的顺序如下:
+01、刷上传量，别着急下载自己喜欢的电影或电视剧，经常见到有第一次玩 PT 的人在抱 怨，为什么我要下载自己不喜欢的视频来刷上传呢，每个人都有自己喜欢的资源也不会断 种啊，这个问题问的极好。为啥您就自己用脚趾头想想吧。这些疯狂吸血的大哥们，你觉 得号还会在吗？<strong>当然实在不愿意下载不喜欢的资源，那可以上传你自己资源嘛，这样刷上传更快。。</strong>
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604124222191.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604124222191.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604124222191.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70"
+            srcset="https://img-blog.csdnimg.cn/20200604124222191.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70, https://img-blog.csdnimg.cn/20200604124222191.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 1.5x, https://img-blog.csdnimg.cn/20200604124222191.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+那怎么刷上传呢，刷上传不代表不下载，但要先<strong>下载带有 free 或 2xfree 做种人数少</strong>的种子，通过前面 BT 的介绍就可以知道为什么要这么干了。什么你没看？那就记照 这做就好了。 如果你直接下载普通或 50% 的种子，这些种子往往大家都已经下过了， 你下载完了做种根本赚不到什么上传，就会造成你的分享率就会过低，过低就会被限制连 接数，限制了连接数就不好过考核，过不了考核号就没了！！
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604124307209.png" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604124307209.png">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604124307209.png"
+            srcset="https://img-blog.csdnimg.cn/20200604124307209.png, https://img-blog.csdnimg.cn/20200604124307209.png 1.5x, https://img-blog.csdnimg.cn/20200604124307209.png 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+02、做种率，前面提到了做种率 = 做种时间 ÷ 下载时间，那么怎么快速提高做种率呢。 如果你第一次玩 PT，手里没有什么资源，那么就下载体积小做种人数多的 free 种子，快速 完成下载做种，提高做种时间。如果你别的站有账号，对新注册的站点，可以靠辅种来快 速通过做种率。(一个优质的非禁转资源，基本上各个网站都会转载)
+03、魔力值，魔力值的产生跟做种数量、种子体积、种子生存时间等等有关。具体自己计 算。如何查看你自己每小时会产生多少魔力值呢，鼠标左键点击魔力值旁边的使用进入下 拉页面查看当前每小时产生魔力值，一句话多做种、挂着就可以了。
+<figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/20200604124411868.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70" title="在这里插入图片描述" data-thumbnail="https://img-blog.csdnimg.cn/20200604124411868.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/20200604124411868.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=,size_16,color_FFFFFF,t_70"
+            srcset="https://img-blog.csdnimg.cn/20200604124411868.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70, https://img-blog.csdnimg.cn/20200604124411868.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 1.5x, https://img-blog.csdnimg.cn/20200604124411868.png?x-oss-process=image/watermark%2ctype_ZmFuZ3poZW5naGVpdGk%2cshadow_10%2ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTI1NTgyMTA=%2csize_16%2ccolor_FFFFFF%2ct_70 2x"
+            sizes="auto"
+            alt="在这里插入图片描述">
+    </a></figure>
+04、下载量，下载一点自己喜欢的电影电视剧保证分享率 &gt; 1 就可以了。这样新手考核就很 快的通过了
+对于不喜欢就是用来过考核的资源呢，建议过了新手考核再删除，毕竟还能帮你赚魔力。
+其实新手的考核非常简单，设置这个考核的核心目的就是检验你是否肯为人人付出，你就找那些即免费又有人下的资源，下载好后保种等待别人来下，挂个一周就过了。</p>
+<h3 id="六常用工具" class="headerLink">
+    <a href="#%e5%85%ad%e5%b8%b8%e7%94%a8%e5%b7%a5%e5%85%b7" class="header-mark"></a>六、常用工具</h3><h4 id="下载工具" class="headerLink">
+    <a href="#%e4%b8%8b%e8%bd%bd%e5%b7%a5%e5%85%b7" class="header-mark"></a>下载工具</h4><p>Windows：推荐 ut 2.0.4、qBittorrent 4.1.x
+Linux：推荐 Transmission
+Transmission 增加跳过校验: <a href="https://github.com/superlukia/transmission-2.92_skiphashcheck" target="_blank" rel="noopener noreferrer">https://github.com/superlukia/transmission-2.92_skiphashcheck</a> Deluge、qBttorrent-nox、rTorrent
+群晖：推荐 Transmission
+更换 web 页面 <a href="https://github.com/ronggang/transmission-web-control" target="_blank" rel="noopener noreferrer">https://github.com/ronggang/transmission-web-control</a> 或 Docker 安装 qBittorrent
+威联通：推荐 Transmission、 使用第三方源安装 qBittorrent-nox
+参考教程：https://tieba.baidu.com/p/5977110817?red_tag=3434577655 qBittorrent
+下载地址：https://www.qnapclub.eu/en/qpkg/507</p>
+<h4 id="搜索工具" class="headerLink">
+    <a href="#%e6%90%9c%e7%b4%a2%e5%b7%a5%e5%85%b7" class="header-mark"></a>搜索工具</h4><p>如果想快速搜索资源或者站点比较多想分类搜索，可以使用：
+PT-Plugin-Plus：https://github.com/ronggang/PT-Plugin-Plus</p>
+<h4 id="辅种工具" class="headerLink">
+    <a href="#%e8%be%85%e7%a7%8d%e5%b7%a5%e5%85%b7" class="header-mark"></a>辅种工具</h4><p>IYUUAutoReseed：https://github.com/ledccn/IYUUAutoReseed
+Reseed-backend：https://github.com/tongyifan/Reseed-backend</p>
+<h3 id="七注意事项" class="headerLink">
+    <a href="#%e4%b8%83%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9" class="header-mark"></a>七、注意事项</h3><ol>
+<li>
+<p>多 IP 下载
+对于一般用户来说，可以从不同的电脑登录下载。
+但有一定的限制，对于某个种子你一次只能在一个地方下载。
+如果你频繁变动 IP，最好在论坛的相应板块进行报备，说明一下情况。</p>
+</li>
+<li>
+<p>禁止发布种子到别的 Tracker 服务器。
+一般发生这样的情况，会追究责任，相应的责任人会被封禁账号。
+但你已经下载的文件发布者明确说明为独占的资源除外），你可以自己制作另一个种子，发布到别的 Tracker 服务器。</p>
+</li>
+<li>
+<p>严禁公开分享你的种子（带有你私人 passkey 的种子）
+一旦你在网站上公开分享，只要被管理员发现或者其他用户举报，基本上会被封禁账号</p>
+</li>
+<li>
+<p>不要分享邀请码给那些不值得信任的人
+一般的 PT 站点实行的是连坐制度，一旦你邀请的那个人违反规则被封禁或者没有通过新手考核被封禁，你同样也会受到相应的处罚。
+一般用户达到一定等级后，就可以得到一定的邀请名额，可以通过邮箱发送邀请码。</p>
+</li>
+</ol>
+<h3 id="八结语" class="headerLink">
+    <a href="#%e5%85%ab%e7%bb%93%e8%af%ad" class="header-mark"></a>八、结语</h3><p>通过这篇文章相信你对 PT 已经有了很好的理解，祝你玩得开心。另外温馨提示：一入 PT 深似海，从此硬盘是路人。如果对你有帮助的话欢迎点赞收藏，有啥问题也可以评论交流。如果这篇文章大家喜欢的话我后续还出一些教程，比如如何快速辅种，如何使用 Seedbox 等等，感兴趣的可以关注我哟～</p>
+<p>%%来源
+link:
+<a href="https://blog.csdn.net/u012558210/article/details/106538528" target="_blank" rel="noopener noreferrer">从零开始玩PT-新人指南_pt怎么玩-CSDN博客</a>
+%%</p>
+</div>
+
+        
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 0001-01-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share"><button title="分享到 Twitter" data-sharer="twitter" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南"><span class="fab fa-twitter fa-fw"></span></button><button title="分享到 Facebook" data-sharer="facebook" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/"><span class="fab fa-facebook-square fa-fw"></span></button><button title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南" data-web><span class="fab fa-whatsapp fa-fw"></span></button><button title="分享到 Line" data-sharer="line" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南"><span data-svg-src="/lib/simple-icons/icons/line.min.svg"></span></button><button title="分享到 微博" data-sharer="weibo" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南"><span class="fab fa-weibo fa-fw"></span></button><button title="分享到 Myspace" data-sharer="myspace" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南" data-description=""><span data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></span></button><button title="分享到 Blogger" data-sharer="blogger" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南" data-description=""><span class="fab fa-blogger fa-fw"></span></button><button title="分享到 Evernote" data-sharer="evernote" data-url="https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/" data-title="从零开始玩 PT - 新人指南"><span class="fab fa-evernote fa-fw"></span></button></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/%E5%BD%B1%E8%A7%86%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AD%97%E5%B9%95%E7%AB%99/" class="prev" rel="prev" title="影视下载和字幕站"><i class="fas fa-angle-left fa-fw"></i>影视下载和字幕站</a>
+            <a href="/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/" class="next" rel="next" title="YouTube去广告">YouTube去广告<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.119.0">Hugo</a> 强力驱动&nbsp;|&nbsp;主题 - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.4.0"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Readfere</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"data":{"desktop-header-typeit":"Readfere | 东西笔谈","mobile-header-typeit":"Readfere | 东西笔谈"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>
