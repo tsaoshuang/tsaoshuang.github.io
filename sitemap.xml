@@ -2,24 +2,12 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://tsaoshuang.github.io/posts/chocolatey%E5%8C%85%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/</loc><lastmod>2023-11-23T11:39:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/</loc><lastmod>2023-11-23T11:39:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tsaoshuang.github.io/</loc><lastmod>2023-11-23T11:39:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tsaoshuang.github.io/tags/note/</loc><lastmod>2023-07-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/obsidian%E5%9B%BE%E7%89%87%E5%A2%9E%E5%BC%BA%E6%8F%92%E4%BB%B6awesome-image-obsidian/</loc><lastmod>2023-07-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/tags/</loc><lastmod>2023-07-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/iphone%E5%AF%BC%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/memossync%E6%8F%92%E4%BB%B6%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/obsidian-dataview-%E5%BC%95%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/prism%E4%B8%BB%E9%A2%98%E9%AB%98%E4%BA%AE%E6%A0%B7%E5%BC%8F%E9%80%9A%E7%94%A8css%E7%89%87%E6%AE%B5/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/tags/telegram/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/telegram%E7%BE%A4%E7%BB%84%E9%A2%91%E9%81%93%E6%A8%A1%E6%9D%BF/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/tags/youtube/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/tags/%E7%BD%91%E9%A1%B5%E6%94%B6%E8%97%8F/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://tsaoshuang.github.io/posts/%E5%BD%B1%E8%A7%86%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AD%97%E5%B9%95%E7%AB%99/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://notes.readfere.com/posts/</loc><lastmod>2023-11-08T04:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://notes.readfere.com/</loc><lastmod>2023-11-08T04:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://notes.readfere.com/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</loc><lastmod>2023-11-08T04:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://notes.readfere.com/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%8E%A9-pt-%E6%96%B0%E4%BA%BA%E6%8C%87%E5%8D%97/</loc><lastmod>2023-11-07T13:36:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://notes.readfere.com/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</loc><lastmod>2023-11-07T12:46:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://notes.readfere.com/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://notes.readfere.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://notes.readfere.com/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://notes.readfere.com/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

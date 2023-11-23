@@ -1,13 +1,10 @@
 # YouTube去广告
 
-#YouTube
-
-▎YouTube 第三方客户端&去广告方案
 
 有小伙伴在群组中问我有没有 YouTube 去广告的方案，今天我总结了一些方案分享给大家。
 分享这些方案不是让大家一直白嫖 YouTube 视频，而是根据大家条件，希望有条件的可以支持你喜欢的 YouTuber 一下，多看看广告，我自己是常年的 YouTube Premium 用户，所以喜欢还是支持，条件有限的可以使用以下方案。
 
-## Haker News 专题贴
+## Haker News专题贴
 [HN thread](https://news.ycombinator.com/item?id=37884683)
 
 ## 第三方客户端
@@ -16,16 +13,34 @@
 [TubeMax](https://apps.apple.com/us/app/tubemax-video-and-live-stream/id1634335563)
 [uYou](https://github.com/MiRO92/uYou-for-YouTube) **—— 需要自签名**
 
-- uYou Modified 版本：
+- uYou Modified版本：
 [uYouPlusExtra: uYou+ is a modified version of uYou](https://github.com/arichorn/uYouPlusExtra)
 [uYouPlus: uYou+ is a modified version of uYou](https://github.com/qnblackcat/uYouPlus)
 
 ### Android：
-[YouTube Vanced](https://youtubevanced.com) **—— 群友说已经被 DMCA 了**
+[YouTube Vanced](https://youtubevanced.com) **—— 群友说已经被DMCA了**
 [Revanced](https://github.com/revanced) **—— vanced 替代项目**
 [SongTube](https://songtube.github.io/)
 [SkyTube](https://github.com/SkyTubeTeam/SkyTube)
 [LibreTube](https://github.com/libre-tube/LibreTube)
+[NewPipe] (https://newpipe.net/)
+[SnapTube] (https://snaptubeappz.com/)
+[Pure Tuber](https://www.puretuber.com/)
+[Ucmate](https://www.ucmate.info/)
+
+[YMusic](https://ymusic.io/) —— YouTube Music
+
+### YouTube镜像站
+https://piped.kavin.rocks/
+https://inv.bp.projectsegfau.lt/
+https://yt.artemislena.eu/
+https://invidious.flokinet.to/
+https://vid.puffyan.us/
+https://yewtu.be/
+
+以上站大部分基于[invidious项目](https://github.com/iv-org/invidious),易失效！
+
+
 
 ### PC
 [FreeTube](https://freetubeapp.io/)
