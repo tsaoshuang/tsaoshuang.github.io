@@ -1,23 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Readfere | 东西笔谈</title>
-        <link>https://notes.readfere.com/</link>
+        <link>http://notes.readfere.com/</link>
         <description>Readfere | 东西笔谈</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 08 Nov 2023 04:09:00 &#43;0800</lastBuildDate>
-            <atom:link href="https://notes.readfere.com/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://notes.readfere.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>YouTube去广告</title>
-    <link>https://notes.readfere.com/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</link>
+    <link>http://notes.readfere.com/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</link>
     <pubDate>Wed, 08 Nov 2023 04:09:00 &#43;0800</pubDate><author>
         <name>Readfere</name>
-    </author><guid>https://notes.readfere.com/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</guid>
+    </author><guid>http://notes.readfere.com/posts/youtube%E5%8E%BB%E5%B9%BF%E5%91%8A/</guid>
     <description><![CDATA[有小伙伴在群组中问我有没有 YouTube 去广告的方案，今天我总结了一些方案分享给大家。 分享这些方案不是让大家一直白嫖 YouTube 视频，而是根据大家条件，希望有条件]]></description>
 </item><item>
     <title>PT网站大全</title>
-    <link>https://notes.readfere.com/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</link>
+    <link>http://notes.readfere.com/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</link>
     <pubDate>Tue, 07 Nov 2023 12:46:00 &#43;0800</pubDate><author>
         <name>Readfere</name>
-    </author><guid>https://notes.readfere.com/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</guid>
+    </author><guid>http://notes.readfere.com/posts/pt%E7%BD%91%E7%AB%99%E5%A4%A7%E5%85%A8/</guid>
     <description><![CDATA[收集了网上比较全的PT下载站网址：CarPT WinterSakura 猪猪网 HDzone高清地帶 铂金学院 Hoşgeldiniz Broadcity | BDC | Broadcity | BDC 1PTBar 3D Torrents(3DT) 3Wmg (芒果) 52PT Ptpimg. me 720pier]]></description>
 </item></channel>
 </rss>
