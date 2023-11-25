@@ -31,9 +31,9 @@
 
 [LibreTube](https://github.com/libre-tube/LibreTube)
 
-[NewPipe] (https://newpipe.net/)
+[NewPipe](https://newpipe.net/)
 
-[SnapTube] (https://snaptubeappz.com/)
+[SnapTube](https://snaptubeappz.com/)
 
 [Pure Tuber](https://www.puretuber.com/)
 
